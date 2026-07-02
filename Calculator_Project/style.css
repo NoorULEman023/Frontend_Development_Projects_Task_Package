@@ -1,0 +1,229 @@
+/* ======================================================
+   Modern Calculator
+   File: style.css
+   ====================================================== */
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+/* Body */
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:linear-gradient(135deg,#141E30,#243B55);
+    padding:20px;
+}
+
+/* Calculator */
+
+.calculator{
+    width:380px;
+    max-width:100%;
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(20px);
+    border-radius:25px;
+    padding:25px;
+    box-shadow:
+        0 15px 35px rgba(0,0,0,0.35),
+        inset 0 0 0 1px rgba(255,255,255,0.08);
+    animation:fadeIn .8s ease;
+}
+
+/* Display */
+
+.display{
+    background:#111827;
+    border-radius:18px;
+    padding:20px;
+    margin-bottom:22px;
+    word-wrap:break-word;
+    overflow:hidden;
+}
+
+/* Previous Calculation */
+
+.history{
+    color:#9CA3AF;
+    font-size:16px;
+    min-height:25px;
+    text-align:right;
+    margin-bottom:10px;
+    overflow:hidden;
+}
+
+/* Input */
+
+#display{
+    width:100%;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:#ffffff;
+    font-size:40px;
+    text-align:right;
+    font-weight:600;
+}
+
+/* Buttons */
+
+.buttons{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:15px;
+}
+
+/* Button */
+
+button{
+    height:70px;
+    border:none;
+    outline:none;
+    border-radius:18px;
+    font-size:22px;
+    cursor:pointer;
+    color:#ffffff;
+    background:#2C3E50;
+    transition:.25s;
+    box-shadow:
+        0 5px 15px rgba(0,0,0,.25);
+}
+
+/* Hover */
+
+button:hover{
+    transform:translateY(-3px);
+    background:#34495E;
+}
+
+/* Click */
+
+button:active{
+    transform:scale(.95);
+}
+
+/* Operators */
+
+.operator{
+    background:#ff9800;
+}
+
+.operator:hover{
+    background:#ffb300;
+}
+
+/* Equal */
+
+.equal{
+    background:#00C853;
+}
+
+.equal:hover{
+    background:#00E676;
+}
+
+/* Clear */
+
+.clear{
+    background:#E53935;
+}
+
+.clear:hover{
+    background:#EF5350;
+}
+
+/* Delete */
+
+.delete{
+    background:#8E24AA;
+}
+
+.delete:hover{
+    background:#AB47BC;
+}
+
+/* Zero Button */
+
+.zero{
+    grid-column:span 2;
+}
+
+/* Animation */
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+/* Responsive */
+
+@media(max-width:500px){
+
+    .calculator{
+        padding:20px;
+    }
+
+    button{
+        height:60px;
+        font-size:20px;
+    }
+
+    #display{
+        font-size:32px;
+    }
+
+    .history{
+        font-size:14px;
+    }
+
+}
+
+/* Small Phones */
+
+@media(max-width:360px){
+
+    button{
+        height:55px;
+        font-size:18px;
+    }
+
+    #display{
+        font-size:28px;
+    }
+
+}
+
+/* Focus */
+
+button:focus{
+    outline:2px solid rgba(255,255,255,.25);
+    outline-offset:2px;
+}
+
+/* Smooth Transition */
+
+button,
+.calculator,
+.display{
+    transition:all .3s ease;
+}
