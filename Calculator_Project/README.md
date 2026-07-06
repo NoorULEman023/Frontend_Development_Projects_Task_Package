@@ -1,6 +1,6 @@
-# 🧮 Calculator Project
+#  Calculator Project
 
-## 📌 Project Overview
+##  Project Overview
 
 The **Calculator Project** is a responsive web application developed using **HTML5**, **CSS3**, and **Vanilla JavaScript**. It performs basic arithmetic operations with a clean, modern user interface. The project is designed to help beginners understand DOM manipulation, event handling, JavaScript logic, and responsive web design.
 
@@ -8,7 +8,7 @@ This calculator works directly in the browser without requiring any external lib
 
 ---
 
-# 🎯 Project Objectives
+#  Project Objectives
 
 * Build a fully functional calculator using only HTML, CSS, and JavaScript.
 * Practice JavaScript event handling.
@@ -19,25 +19,25 @@ This calculator works directly in the browser without requiring any external lib
 
 ---
 
-# 🚀 Features
+#  Features
 
-* ➕ Addition
-* ➖ Subtraction
-* ✖️ Multiplication
-* ➗ Division
-* 🔢 Decimal calculations
-* 🧹 Clear (AC) button
-* ⌫ Delete (DEL) button
-* ⚡ Real-time display updates
-* ⚠️ Error handling
-* ⌨️ Keyboard support
-* 🌙 Modern dark-themed UI
-* 📱 Responsive design
-* ✨ Smooth button animations
+*  Addition
+*  Subtraction
+*  Multiplication
+*  Division
+*  Decimal calculations
+*  Clear (AC) button
+*  Delete (DEL) button
+*  Real-time display updates
+*  Error handling
+*  Keyboard support
+*  Modern dark-themed UI
+*  Responsive design
+*  Smooth button animations
 
 ---
 
-# 🛠 Technologies Used
+#  Technologies Used
 
 * HTML5
 * CSS3
@@ -45,7 +45,7 @@ This calculator works directly in the browser without requiring any external lib
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 ```
 Calculator_Project/
@@ -58,7 +58,7 @@ Calculator_Project/
 
 ---
 
-# 📄 File Description
+#  File Description
 
 ## index.html
 
@@ -106,7 +106,7 @@ It includes:
 
 ---
 
-# 💻 JavaScript Logic Explanation
+#  JavaScript Logic Explanation
 
 The calculator follows these steps:
 
@@ -122,7 +122,7 @@ The project uses JavaScript event listeners to detect both mouse clicks and keyb
 
 ---
 
-# 🔘 Button Functionality
+#  Button Functionality
 
 | Button | Function                 |
 | ------ | ------------------------ |
@@ -139,7 +139,7 @@ The project uses JavaScript event listeners to detect both mouse clicks and keyb
 
 ---
 
-# ⚙️ How Calculations Work
+#  How Calculations Work
 
 The calculator stores the entered expression as text.
 
@@ -158,7 +158,7 @@ When the equals (`=`) button is clicked:
 
 ---
 
-# ▶️ How to Run the Project
+#  How to Run the Project
 
 1. Download or clone the project.
 2. Open the project folder.
@@ -169,7 +169,7 @@ No installation is required.
 
 ---
 
-# 📚 Learning Outcomes
+#  Learning Outcomes
 
 After completing this project, students will understand:
 
@@ -186,7 +186,7 @@ After completing this project, students will understand:
 
 ---
 
-# 🎓 How Students Can Improve This Project
+#  How Students Can Improve This Project
 
 Students can extend the calculator by adding:
 
@@ -205,7 +205,7 @@ Students can extend the calculator by adding:
 
 ---
 
-# 📖 Conclusion
+#  Conclusion
 
 This Calculator Project demonstrates the fundamentals of front-end web development using HTML, CSS, and JavaScript. It provides hands-on experience with user interaction, arithmetic operations, DOM manipulation, keyboard events, and responsive design. It serves as an excellent beginner project for strengthening JavaScript skills and building a professional front-end development portfolio.
 
